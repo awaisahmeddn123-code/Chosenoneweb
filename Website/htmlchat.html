@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awais Ahmed — Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="csschat.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-flex">
+      <div class="logo">Awais Ahmed</div>
+
+      <button class="menu-btn" id="menu-btn">☰</button>
+
+      <nav class="nav" id="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" class="theme-btn">Dark</button>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- HOME SECTION -->
+  <section id="home" class="home">
+    <div class="container home-grid">
+      <div class="home-text">
+        <h1>Hi, I'm <span>Awais Ahmed</span></h1>
+        <p class="tagline">Web Developer • Designer • Learner</p>
+        <a href="#projects" class="btn">View My Projects</a>
+      </div>
+
+      <div class="home-img">
+        <img src="WhatsApp Image 2025-11-26 at 18.40.54_92930e73.jpg" alt="Awais Ahmed">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about container">
+    <h2>About Me</h2>
+
+    <div class="about-grid">
+      <div>
+        <p>
+          I am Awais Ahmed, a web development student focused on building clean, responsive
+          and user-friendly websites. I enjoy learning new tools and improving my development skills.
+        </p>
+        <p>
+          I work with HTML, CSS, JavaScript, and modern layout systems like Flexbox and Grid.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="skills container">
+    <h2>Skills</h2>
+
+    <div class="skills-grid">
+      <div class="skill-card">HTML5</div>
+      <div class="skill-card">CSS3</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">Responsive Design</div>
+      <div class="skill-card">GitHub</div>
+      <div class="skill-card">UI/UX Basics</div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="projects container">
+    <h2>Projects</h2>
+
+    <div class="projects-grid">
+
+      <div class="project">
+        <img src="Gemini_Generated_Image_pvm6vvpvm6vvpvm6.png" alt="Project 1">
+        <h3>Student Result System</h3>
+        <p>A simple result viewing system using HTML, CSS, and basic JavaScript.</p>
+        <a href="#" class="project-link">View Demo</a>
+      </div>
+
+      <div class="project">
+        <img src="Gemini_Generated_Image_1lzwa51lzwa51lzw.png" alt="Project 2">
+        <h3>Portfolio UI Mockup</h3>
+        <p>A front-end portfolio design sample with responsive layout.</p>
+        <a href="#" class="project-link">Read More</a>
+      </div>
+
+      <div class="project">
+        <img src="Gemini_Generated_Image_wd9k6awd9k6awd9k.png" alt="Project 3">
+        <h3>Weather Checker</h3>
+        <p>A simple weather app UI using JavaScript and API placeholders.</p>
+        <a href="#" class="project-link">GitHub Repo</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact container">
+    <h2>Contact Me</h2>
+
+    <form id="contact-form">
+      <div class="form-grid">
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <input type="text" id="subject" placeholder="Subject" required>
+        <textarea id="message" placeholder="Message" required></textarea>
+      </div>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© <span id="year"></span> Awais Ahmed. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Back to top button -->
+  <button id="back-top" class="back-top">↑</button>
+
+  <!-- JAVASCRIPT -->
+  <script src="jschat.js"></script>
+</body>
+</html>
